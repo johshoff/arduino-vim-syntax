@@ -6,12 +6,16 @@ from collections import defaultdict
 mappings = {
 	'HIGH'       : 'arduinoConstant',
 	'abs'        : 'arduinoStdFunc',
+	'press'      : 'arduinoStdFunc',
 	'arduinoFunc': 'analogReference',
 	'setup'      : 'arduinoMethod',
 	'begin'      : 'arduinoMethod',
+	'switch'     : 'arduinoMethod',
+	'break'      : 'arduinoMethod',
 	'bitSet'     : 'arduinoFunc',
 	'analogRead' : 'arduinoFunc',
 	'Serial'     : 'arduinoModule',
+	'Keyboard'   : 'arduinoModule',
 	'boolean'    : 'arduinoType',
 	'+='         : None,
 }
