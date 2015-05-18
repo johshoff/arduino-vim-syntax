@@ -61,9 +61,9 @@ def get_mapped_keywords(sections):
 			if maps_to[0]:
 				yield (reduced, maps_to[0])
 		elif len(maps_to) == 0:
-			print >> sys.stderr ('Warning: No mapping for %s' % str(keywords))
+			print >> sys.stderr, ('Warning: No mapping for %s' % str(keywords))
 		else:
-			print >> sys.stderr ('Warning: Collision for %s. Maps to: %s' % (str(keywords), ', '.join(maps_to)))
+			print >> sys.stderr, ('Warning: Collision for %s. Maps to: %s' % (str(keywords), ', '.join(maps_to)))
 
 def get_syntax_groups(sections):
 	syntax_groups = defaultdict(lambda: [])
