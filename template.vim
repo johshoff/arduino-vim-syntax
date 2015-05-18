@@ -10,7 +10,8 @@
 " Using keywords from <arduino>/build/shared/lib/keywords.txt
 " From version: ${arduino_version}
 
-" Thanks to Rik, Erik Nomitch, Adam Obeng and Graeme Cross for helpful feedback!
+" Thanks to Rik, Erik Nomitch, Adam Obeng, Graeme Cross and Niall Parker
+" for helpful feedback!
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
